@@ -53,6 +53,18 @@ use yii\bootstrap4\Html;
                         ['class' => 'collapse-item']
                     ); ?>
                    
+
+                   <?= Html::a(
+                        'Categoria',
+                        ['/categoria/index'],
+                        ['class' => 'collapse-item']
+                    ); ?>
+
+<?= Html::a(
+                        'Carrera',
+                        ['/carrera/index'],
+                        ['class' => 'collapse-item']
+                    ); ?>
                
                 
             </div>
